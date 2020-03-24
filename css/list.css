@@ -1,0 +1,41 @@
+.pro_li{
+    height: 40px;
+    line-height: 40px;
+    background: #eee;
+    color:#666;
+    font-size: 14px;
+    padding-left: 28px;
+}
+.tip_li p{
+    color: #ff6700;
+    font-size: 20px;
+    margin: 28px;
+    cursor: pointer;
+}
+.tip_li p i{
+    color: #666666;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont{
+    width: 240px;
+    height: 160px;
+    border: 1px solid #eee;
+    text-align: center;
+    padding-top: 20px;
+}
+.cont img{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.cont p{
+    color: #666;
+    font-size: 14px;
+}
+.cont p:hover{
+    color: #ff6700;
+}
+

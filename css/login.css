@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.w{
+	margin: 0 auto;
+	width: 1226px;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.h_logo{
+    width: 200px;
+    height: 98px;
+    margin-left: 60px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+
+.login_banner{
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.main_content{
+    width: 410px;
+    height: 500px;
+    background: #fff;
+    position: absolute;
+    right: 70px;
+    top: 130px;
+    z-index: 999;
+}
+.main_content .lgn_head{
+    width: 410px;
+    height: 80px;
+    line-height: 80px;
+    color: #e0e0e0;
+    text-align: center;
+    font-size: 24px;
+} 
+.main_content .lgn_head a{
+    text-decoration: none;
+}
+.main_content .lgn_head .lgn_id{
+    color: #f56600;
+}
+.main_content .lgn_head .lgn_code{
+    color: #666;
+}
+.main_content .lgn_head .lgn_code:hover{
+    color: #f56600;
+}
+.main_content .lgn_input{
+    width: 348px;
+    height: 420px;
+    /* text-align: center; */
+    margin-left: 30px;
+
+}
+.main_content .lgn_input span{
+        display: inline-block;
+        font-size:14px;
+        color: #f56600;
+        width: 348px;  
+        margin-left: 15px;
+    }
+.main_content .lgn_input input{
+    width: 348px;
+    display: block;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.main_content .lgn_input input:nth-of-type(1),
+.main_content .lgn_input input:nth-of-type(2){
+        padding-left:10px;
+    }
+.main_content .lgn_input input:nth-of-type(3){
+    background: #f56600;
+    height: 50px;
+    color: #fff;
+    font-size: 12px;
+    width: 360px;
+    border: none;
+    margin-bottom: 5px;
+}
+.main_content .lgn_regist{
+    width: 360px;
+    height: 30px;
+    font-size: 14px;
+}
+.main_content .lgn_regist .phone{
+    color: #f56600;
+    float: left;
+    line-height: 30px;
+}
+.main_content .lgn_regist .forget{
+    color: #999;
+    float: right;
+    line-height: 30px;
+}
+.main_content .lgn_regist .forget:hover{
+    color: #f56600;
+}
+
+.foot{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    position: absolute;
+    top:750px;
+}
+.foot span:nth-of-type(1){
+    color: #000;
+}
+.foot span{
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    padding: 30px 0;
+}
+.foot span:hover{
+    color: #000;
+}
+.foot p{
+    font-size: 14px;
+    color: #666;
+}
